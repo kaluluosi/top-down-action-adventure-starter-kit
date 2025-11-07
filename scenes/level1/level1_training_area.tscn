@@ -171,7 +171,7 @@ switch_emitters = [NodePath("ShortSwitch3")]
 switch_receivers = Array[ExtResource("3_dx2yw")]([SubResource("Resource_gah4f"), SubResource("Resource_jav86"), SubResource("Resource_8g4un"), SubResource("Resource_5jwrl")])
 
 [node name="InteractiveDoor1" parent="Room1/SwitchHubOpeningDoors" instance=ExtResource("5_jgbxd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.53, -16)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.53, -16.67643)
 
 [node name="InteractiveDoor2" parent="Room1/SwitchHubOpeningDoors" instance=ExtResource("5_jgbxd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.5, 20)
@@ -330,6 +330,7 @@ transform = Transform3D(-2.7244, -0.00213912, -0.78926, -0.00270527, 2.83642, 0.
 transform = Transform3D(1.29539, 0, 0, 0, 1.83988, 0, 0, 0, 1.34797, -14.4569, 1.35692, -10.5898)
 
 [node name="Room2" type="Node3D" parent="."]
+visible = false
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="Room2"]
 visible = false
@@ -448,6 +449,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0908, 0.500002, -14.29)
 visible = false
 
 [node name="Room3" type="Node3D" parent="."]
+visible = false
 
 [node name="ItemDistributor" parent="Room3" instance=ExtResource("32_r2fax")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 4, 38)

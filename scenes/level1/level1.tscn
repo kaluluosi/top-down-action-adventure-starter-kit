@@ -35,7 +35,7 @@
 [ext_resource type="PackedScene" uid="uid://h8pnjgggsrtm" path="res://characters/NPC/dr_megadroon.tscn" id="32_ktg0t"]
 [ext_resource type="PackedScene" uid="uid://ghvokiyi5vxr" path="res://assets/objects/laboratory/item_distributor.tscn" id="32_xsrdy"]
 [ext_resource type="PackedScene" uid="uid://cwk6ldidjdnnh" path="res://assets/objects/laboratory/cloning_tank.tscn" id="33_a67mj"]
-[ext_resource type="Resource" uid="uid://bh0w2xg3k5a7g" path="res://scenes/level1/level1_drmegadroon.dtl" id="34_507xk"]
+[ext_resource type="Resource" path="res://scenes/level1/level1_drmegadroon.dtl" id="34_507xk"]
 [ext_resource type="PackedScene" uid="uid://dhnoso0tnbnrd" path="res://assets/objects/laboratory/computer2.glb" id="34_ph7g1"]
 [ext_resource type="PackedScene" uid="uid://1gflwu3l4dcu" path="res://assets/objects/weapons/toy_gun/toygun.tscn" id="37_eufvb"]
 [ext_resource type="PackedScene" uid="uid://yqmkxyxy01sl" path="res://assets/objects/laboratory/collectable_building_pass.tscn" id="39_85vp3"]
@@ -1123,21 +1123,22 @@ metadata/_edit_lock_ = true
 metadata/_edit_lock_ = true
 
 [node name="Skeleton3D" parent="GridMapBuilding/NPCs/dr-megadroon-PROTOTYPE/Armature" index="0"]
-bones/0/position = Vector3(-3.19065e-10, 0.657256, 0.010406)
-bones/0/rotation = Quaternion(0.063862, 0.000674934, 0.0105446, 0.997903)
-bones/1/rotation = Quaternion(-0.0267094, 0.00337959, 0.0323982, 0.999112)
-bones/2/rotation = Quaternion(0.0811464, 0.00482467, 0.0285891, 0.99628)
-bones/11/position = Vector3(0.327103, 0.382137, 0.0463465)
-bones/11/rotation = Quaternion(0.0459528, 0.604477, 0.767617, -0.20799)
-bones/12/rotation = Quaternion(-0.214201, 0.0367325, -0.0467024, 0.974981)
-bones/13/position = Vector3(-0.326216, 0.376787, -0.0237088)
-bones/13/rotation = Quaternion(-0.19833, -0.481994, 0.853366, -0.0106197)
-bones/14/rotation = Quaternion(-0.303953, -0.0526948, 0.0440335, 0.950209)
-bones/15/rotation = Quaternion(0.589296, 0.390807, 0.589296, 0.390808)
-bones/16/rotation = Quaternion(-0.0096832, 0.00337546, -0.485355, 0.874257)
-bones/17/rotation = Quaternion(-0.599025, -0.461102, 0.526731, 0.388727)
-bones/18/rotation = Quaternion(-0.0101538, -0.00143515, 0.306749, 0.951735)
-bones/20/position = Vector3(1.44274e-07, 0.18756, -0.599045)
+bones/0/position = Vector3(0, 0.31859434, 3.7989154e-09)
+bones/0/rotation = Quaternion(0.063865565, 1.189659e-07, 7.613372e-09, 0.99795854)
+bones/1/rotation = Quaternion(-0.049354415, -1.395783e-10, -1.4119903e-08, 0.9987814)
+bones/1/scale = Vector3(1.0187749, 1.0187749, 1.018775)
+bones/2/rotation = Quaternion(-0.029063005, -1.1915891e-07, -3.4645804e-09, 0.9995776)
+bones/11/position = Vector3(0.32676032, 0.3800719, 0.019305266)
+bones/11/rotation = Quaternion(-0.010036021, 0.07953133, 0.9605893, -0.26616225)
+bones/12/rotation = Quaternion(-0.13055359, 0.021866383, -0.048775688, 0.9899993)
+bones/13/position = Vector3(-0.32676035, 0.3800719, 0.019305112)
+bones/13/rotation = Quaternion(0.010544653, 0.079319976, 0.9588773, 0.27230772)
+bones/14/rotation = Quaternion(-0.13055362, -0.021866389, 0.048775658, 0.9899993)
+bones/15/rotation = Quaternion(0.7070293, -0.010453192, 0.70702976, -0.010453133)
+bones/16/rotation = Quaternion(-0.010254332, -8.78313e-05, -0.16210248, 0.9867207)
+bones/17/rotation = Quaternion(-0.7070295, -0.010453145, 0.7070295, 0.010453179)
+bones/18/rotation = Quaternion(-0.010254405, 8.779114e-05, 0.16210248, 0.9867207)
+bones/20/position = Vector3(1.4333531e-07, 0.20824926, -0.601192)
 metadata/_edit_lock_ = true
 
 [node name="Body" parent="GridMapBuilding/NPCs/dr-megadroon-PROTOTYPE/Armature/Skeleton3D" index="0"]

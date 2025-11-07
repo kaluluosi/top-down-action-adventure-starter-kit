@@ -32,7 +32,8 @@ directories/dch_directory={
 directories/dtl_directory={
 "dr_megadroon": "res://characters/NPC/dr_megadroon.dtl",
 "level1_drmegadroon": "res://scenes/level1/level1_drmegadroon.dtl",
-"level1_intro": "res://scenes/level1/level1_intro.dtl"
+"level1_intro": "res://scenes/level1/level1_intro.dtl",
+"timeline": "res://timeline.dtl"
 }
 glossary/default_case_sensitive=true
 layout/style_list=["res://ui/dialogic_style/dialog_style.tres"]
@@ -59,6 +60,10 @@ save/encryption_on_exports_only=true
 text/autopauses={}
 text/input_action="p1_interact"
 text/autoadvance_enabled=false
+layout/style_directory={
+"": "res://ui/dialogic_style/dialog_style.tres",
+"dialog_style": "res://ui/dialogic_style/dialog_style.tres"
+}
 
 [display]
 
